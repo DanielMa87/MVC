@@ -1,0 +1,39 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore environment files
+.env
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore coverage reports
+coverage/
+
+# Ignore Git-specific files
+.git/
+.gitignore/
