@@ -8007,32 +8007,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\e369959\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DemoMvc\\MVC_Productos\\MVC_Productos.csproj",
+      "projectUniqueName": "C:\\Users\\e369959\\Desktop\\MVC_CURD_REST_API\\MVC\\MVC_Productos.csproj",
       "projectName": "MVC_Productos",
-      "projectPath": "C:\\Users\\pc\\Desktop\\DemoMvc\\MVC_Productos\\MVC_Productos.csproj",
-      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\DemoMvc\\MVC_Productos\\obj\\",
+      "projectPath": "C:\\Users\\e369959\\Desktop\\MVC_CURD_REST_API\\MVC\\MVC_Productos.csproj",
+      "packagesPath": "C:\\Users\\e369959\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\e369959\\Desktop\\MVC_CURD_REST_API\\MVC\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\e369959\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

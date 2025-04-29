@@ -37,3 +37,4 @@ coverage/
 # Ignore Git-specific files
 .git/
 .gitignore/
+*.sln
