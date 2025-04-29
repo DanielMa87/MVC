@@ -1,5 +1,7 @@
 # Ignore node_modules folder
 node_modules/
+obj/
+bin/
 
 # Ignore log files
 *.log
@@ -36,4 +38,6 @@ coverage/
 
 # Ignore Git-specific files
 .git/
-.gitignore/
+#ignore configuraciones locales
+*.cproj
+Program.cs
