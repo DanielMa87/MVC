@@ -1,5 +1,5 @@
-
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MVC_Productos.Models
 {
@@ -8,10 +8,10 @@ namespace MVC_Productos.Models
         [Key]
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public string Descripcion{ get; set; }
-        
-        //para cada catergora hay n productos
-        public List <Producto>ListaProdutos  { get;set;}
+        public string Descripcion { get; set; }
 
+        // Relación con Producto
+        [InverseProperty("Categoria")]
+        public List<Producto> ListaProdutos { get; set; } = new();
     }
 }
