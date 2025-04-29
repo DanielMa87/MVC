@@ -9,6 +9,7 @@ logs/
 
 # Ignore environment files
 .env
+*.env
 
 # Ignore build outputs
 dist/
@@ -38,6 +39,41 @@ coverage/
 
 # Ignore Git-specific files
 .git/
-#ignore configuraciones locales
+
+# Ignore local configuration files
 *.cproj
+*.user
+*.suo
+*.csproj.user
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Ignore launch and debug configurations
+launchSettings.json
+
+# Ignore Rider IDE files
+.idea/
+*.iml
+
+# Ignore Visual Studio Code workspace settings
+*.code-workspace
+
+# Ignore temporary files created by the OS
+$RECYCLE.BIN/
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore local database files
+*.bak
+*.mdf
+*.ldf
+*.sqlite
+
+# Ignore local secrets
+secrets.json
+
+# Ignore any other local machine-specific files
 Program.cs
