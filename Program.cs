@@ -28,7 +28,7 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddDbContext<DataContex>(option =>
 {
-    option.UseSqlServer("Server=DESKTOP-IAMK8JE\\SQLEXPRESS;Database=MVCProductosBD;Trusted_Connection=True;TrustServerCertificate=True");
+    option.UseSqlServer("Server=S1706648\\SQLEXPRESS;Database=MVCProductosBD;Trusted_Connection=True;TrustServerCertificate=True");
 });
 
 builder.Services.AddScoped<ProductoService>();
@@ -58,7 +58,7 @@ app.UseHttpsRedirection();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.UseStaticFiles();
 app.MapStaticAssets();
 
 app.MapControllerRoute(
