@@ -49,6 +49,7 @@ coverage/
 *.sqlite
 *.mdf
 *.ldf
+*.sln
 
 # Ignore launch and debug configurations
 launchSettings.json
